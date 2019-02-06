@@ -46,6 +46,7 @@ header {
 .top-wrapper {
   padding-top: 180px;
   padding-bottom: 100px;
+  background-color: gray;
   background-image: url(/hairmo/Top.jpg);
   background-size: cover;
   color: white;

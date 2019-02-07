@@ -1,0 +1,15 @@
+@media (max-width: 700px) {
+	
+	.header-right {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+
+	.content {
+		width: 100%;
+	}
+}

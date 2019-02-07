@@ -8,6 +8,10 @@
 		display: block;
 	}
 
+	.heading h2 {
+		font-size: 18px;
+	}
+
 
 	.content {
 		width: 100%;

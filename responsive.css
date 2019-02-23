@@ -1,19 +1,23 @@
 @media (max-width: 700px) {
-	
-	.header-right {
-		display: none;
-	}
 
-	.menu-icon {
-		display: block;
-	}
+  .header-right {
+    display: none;
+  }
 
-	.heading h2 {
-		font-size: 18px;
-	}
+  .menu-icon {
+    display: block;
+  }
 
+  .heading h2 {
+    font-size: 18px;
+  }
 
-	.content {
-		width: 100%;
-	}
+  .content {
+    width: 100%;
+  }
+
+  .salon {
+    width: 100%;
+  }
+
 }

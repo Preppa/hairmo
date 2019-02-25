@@ -15,9 +15,10 @@ header {
   height: 80px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 10;
+  padding-bottom: 10px;
 }
 
 .header-left {
@@ -59,14 +60,13 @@ header {
 .top-wrapper {
   padding-top: 180px;
   padding-bottom: 100px;
-  background-image: url(/hairmo/top.jpg);
+  background-image: url(./img/top.jpg);
   background-size: cover;
   color: white;
   text-align: center;
 }
 
 .top-wrapper p {
-  opacity: 0.9;
 }
 
 .contents-wrapper {

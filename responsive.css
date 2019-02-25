@@ -1,7 +1,21 @@
 @media (max-width: 700px) {
 
+
   .header-right {
     display: none;
+  }
+
+  .top-wrapper {
+  background-image: url(./img/top.jpg) no-repeat;
+  width: 100%;
+}
+
+  .container h2 {
+    font-size: 18px;
+  }
+
+  .container h1 {
+    font-size: 28px;
   }
 
   .menu-icon {

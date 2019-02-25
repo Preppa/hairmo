@@ -31,14 +31,6 @@ header {
   padding-left: 10px;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
 .header-right {
   float: right;
   padding-top: 30px;
@@ -48,6 +40,16 @@ header {
 .header-right a {
   color: white;
   padding-right: 30px;
+  text-decoration: underline;
+}
+
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url(./img/contents/top.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 .container {
@@ -57,31 +59,42 @@ header {
   margin: 0 auto;
 }
 
-.top-wrapper {
-  padding-top: 180px;
-  padding-bottom: 100px;
-  background-image: url(./img/top.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
+.button-a {
+  display: inline-block;
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #9966CC;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
 }
 
-.top-wrapper p {
+.msg-wrapper {
+  text-align: center;
+  padding: 30px 15px;
+  background-color: #f7f7f7;
 }
 
 .contents-wrapper {
   padding-bottom: 80px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   text-align: center;
 }
 
 .heading {
-  padding: 30px 0 30px;
+  padding-top: 30px;
   color: #5f5d60;
 }
 
 .heading h2 {
   font-weight: normal;
+}
+
+.heading span {
+  font-size: 12px;
 }
 
 .content {
@@ -103,26 +116,13 @@ header {
   color: black;
 }
 
-.service-wrapper {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
 .heading h3 {
   padding-bottom: 10px;
   font-size: 32px;
 }
 
 .heading p {
-}
-
-.chara {
-  text-decoration: underline;
-  font-size: 18px;
-}
-
-.chara span{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .salon-wrapper {
@@ -143,6 +143,24 @@ header {
   padding-right: 30px;
 }
 
+.how-to {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.how-to h2 {
+  text-decoration: underline;
+}
+
+.how-to ul {
+  list-style: none;
+  text-align: left;
+  }
+
+.small {
+  font-size: 12px;
+}
+
 .salon {
   float: left;
   width: 50%;
@@ -159,16 +177,34 @@ header {
   width: 80%;
   font-size: 20px;
   display: inline-block;
+  margin-top: 15px;
+  line-height: 15px;
 }
 
-.salon-url {
-  width: 80%;
-  font-size: 16px;
+.salon-name p {
+  font-size: 14px;
+}
+
+.salon-address {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.button-b {
   display: inline-block;
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #9966CC;
+  color: #f0f0f0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
 }
 
-.salon-txt {
-  width: 80%;
+
+.salon a {
   display: inline-block;
 }
 

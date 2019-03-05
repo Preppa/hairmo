@@ -29,7 +29,7 @@ p {
 }
 
 header {
-  height: 90px;
+  height: 50px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
 }
@@ -39,12 +39,12 @@ header {
 }
 
 .header-left {
-  padding-top:20px;
-  padding-left: 30px;
+  padding-top:5px;
+  text-align: center;
 }
 
 .header-left h1 {
-  font-size: 38px;
+  font-size: 24px;
   color: white;
   margin: 0;
 }
@@ -54,9 +54,9 @@ header {
 }
 
 .top-container {
-  background-image: url(./img/contents/top_2.jpg);
+  background-image: url(./img/salon/Films_ginza/interior_1.jpg);
   background-size: cover;
-  height: 500px;
+  height: auto;
   width: 100%;
   max-width: 750px;
   margin: auto;
@@ -66,12 +66,13 @@ header {
 .top-container h2 {
   font-size: 38px;
   margin: 0;
-  padding-top: 200px;
+  padding-top: 50px;
+  color: black;
 }
 
 .msg-wrapper {
   text-align: center;
-  padding: 40px 15px;
+  padding: 10px 15px;
   background-color: #f7f7f7;
 }
 
@@ -84,7 +85,7 @@ header {
 .button {
   display: inline-block;
   width: 400px;
-  padding: 15px;
+  padding: 5px;
   margin: 10px;
   border-radius: 5px;
   background-color: #399cc6;

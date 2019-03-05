@@ -1,0 +1,55 @@
+@media (max-width: 700px) {
+
+  .top-wrapper {
+  background-image: url(./img/top.jpg) no-repeat;
+  height: 300px;
+  width: 100%;
+  }
+
+  .top-container h2 {
+  padding-top: 180px;
+  font-size: 38px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .how-to-wrapper {
+  height: 600px;
+  }
+
+  .step {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .step-icon {
+  float: left;
+  margin-left: 25px;
+  }
+
+  .step-content {
+  float: left;
+  margin-left: 30px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .how-to {
+  width: 100%;
+  margin: 0 auto;
+  }
+
+  .salon {
+    width: 100%;
+  }
+
+  .button {
+  display: inline-block;
+  width: 300px;
+  }
+
+}
